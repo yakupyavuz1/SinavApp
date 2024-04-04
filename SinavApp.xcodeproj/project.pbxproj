@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8FA2DB2BBEBC2600F99981 /* play_button_flat_with_outline.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8FA2DA2BBEBC2600F99981 /* play_button_flat_with_outline.png */; };
+		CE8FA2E02BBEBC3900F99981 /* abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8FA2DF2BBEBC3600F99981 /* abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg */; };
+		CEFB2F7B2BBE931400C88049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB2F7A2BBE931400C88049 /* AppDelegate.swift */; };
+		CEFB2F7D2BBE931400C88049 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB2F7C2BBE931400C88049 /* SceneDelegate.swift */; };
+		CEFB2F7F2BBE931400C88049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB2F7E2BBE931400C88049 /* ViewController.swift */; };
+		CEFB2F822BBE931400C88049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB2F802BBE931400C88049 /* Main.storyboard */; };
+		CEFB2F842BBE931700C88049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFB2F832BBE931700C88049 /* Assets.xcassets */; };
+		CEFB2F872BBE931700C88049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB2F852BBE931700C88049 /* LaunchScreen.storyboard */; };
+		CEFB2F922BBE931800C88049 /* SinavAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB2F912BBE931800C88049 /* SinavAppTests.swift */; };
+		CEFB2F9D2BBE931800C88049 /* SinavAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB2F9C2BBE931800C88049 /* SinavAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFB2F8E2BBE931700C88049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFB2F6F2BBE931400C88049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFB2F762BBE931400C88049;
+			remoteInfo = SinavApp;
+		};
+		CEFB2F992BBE931800C88049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFB2F6F2BBE931400C88049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFB2F762BBE931400C88049;
+			remoteInfo = SinavApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8FA2DA2BBEBC2600F99981 /* play_button_flat_with_outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_button_flat_with_outline.png; path = ../../../Downloads/play_button_flat_with_outline.png; sourceTree = "<group>"; };
+		CE8FA2DF2BBEBC3600F99981 /* abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg"; path = "../../../Downloads/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg"; sourceTree = "<group>"; };
+		CEFB2F772BBE931400C88049 /* SinavApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinavApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB2F7A2BBE931400C88049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFB2F7C2BBE931400C88049 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEFB2F7E2BBE931400C88049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFB2F812BBE931400C88049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFB2F832BBE931700C88049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFB2F862BBE931700C88049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFB2F882BBE931700C88049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB2F8D2BBE931700C88049 /* SinavAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinavAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB2F912BBE931800C88049 /* SinavAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinavAppTests.swift; sourceTree = "<group>"; };
+		CEFB2F932BBE931800C88049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB2F982BBE931800C88049 /* SinavAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinavAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB2F9C2BBE931800C88049 /* SinavAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinavAppUITests.swift; sourceTree = "<group>"; };
+		CEFB2F9E2BBE931800C88049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFB2F742BBE931400C88049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB2F8A2BBE931700C88049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB2F952BBE931800C88049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFB2F6E2BBE931400C88049 = {
+			isa = PBXGroup;
+			children = (
+				CEFB2F792BBE931400C88049 /* SinavApp */,
+				CEFB2F902BBE931800C88049 /* SinavAppTests */,
+				CEFB2F9B2BBE931800C88049 /* SinavAppUITests */,
+				CEFB2F782BBE931400C88049 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFB2F782BBE931400C88049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB2F772BBE931400C88049 /* SinavApp.app */,
+				CEFB2F8D2BBE931700C88049 /* SinavAppTests.xctest */,
+				CEFB2F982BBE931800C88049 /* SinavAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFB2F792BBE931400C88049 /* SinavApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB2F7A2BBE931400C88049 /* AppDelegate.swift */,
+				CEFB2F7C2BBE931400C88049 /* SceneDelegate.swift */,
+				CEFB2F7E2BBE931400C88049 /* ViewController.swift */,
+				CEFB2F802BBE931400C88049 /* Main.storyboard */,
+				CEFB2F832BBE931700C88049 /* Assets.xcassets */,
+				CEFB2F852BBE931700C88049 /* LaunchScreen.storyboard */,
+				CEFB2F882BBE931700C88049 /* Info.plist */,
+				CE8FA2DA2BBEBC2600F99981 /* play_button_flat_with_outline.png */,
+				CE8FA2DF2BBEBC3600F99981 /* abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg */,
+			);
+			path = SinavApp;
+			sourceTree = "<group>";
+		};
+		CEFB2F902BBE931800C88049 /* SinavAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB2F912BBE931800C88049 /* SinavAppTests.swift */,
+				CEFB2F932BBE931800C88049 /* Info.plist */,
+			);
+			path = SinavAppTests;
+			sourceTree = "<group>";
+		};
+		CEFB2F9B2BBE931800C88049 /* SinavAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB2F9C2BBE931800C88049 /* SinavAppUITests.swift */,
+				CEFB2F9E2BBE931800C88049 /* Info.plist */,
+			);
+			path = SinavAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFB2F762BBE931400C88049 /* SinavApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB2FA12BBE931800C88049 /* Build configuration list for PBXNativeTarget "SinavApp" */;
+			buildPhases = (
+				CEFB2F732BBE931400C88049 /* Sources */,
+				CEFB2F742BBE931400C88049 /* Frameworks */,
+				CEFB2F752BBE931400C88049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinavApp;
+			productName = SinavApp;
+			productReference = CEFB2F772BBE931400C88049 /* SinavApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFB2F8C2BBE931700C88049 /* SinavAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB2FA42BBE931800C88049 /* Build configuration list for PBXNativeTarget "SinavAppTests" */;
+			buildPhases = (
+				CEFB2F892BBE931700C88049 /* Sources */,
+				CEFB2F8A2BBE931700C88049 /* Frameworks */,
+				CEFB2F8B2BBE931700C88049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFB2F8F2BBE931700C88049 /* PBXTargetDependency */,
+			);
+			name = SinavAppTests;
+			productName = SinavAppTests;
+			productReference = CEFB2F8D2BBE931700C88049 /* SinavAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFB2F972BBE931800C88049 /* SinavAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB2FA72BBE931800C88049 /* Build configuration list for PBXNativeTarget "SinavAppUITests" */;
+			buildPhases = (
+				CEFB2F942BBE931800C88049 /* Sources */,
+				CEFB2F952BBE931800C88049 /* Frameworks */,
+				CEFB2F962BBE931800C88049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFB2F9A2BBE931800C88049 /* PBXTargetDependency */,
+			);
+			name = SinavAppUITests;
+			productName = SinavAppUITests;
+			productReference = CEFB2F982BBE931800C88049 /* SinavAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFB2F6F2BBE931400C88049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CEFB2F762BBE931400C88049 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CEFB2F8C2BBE931700C88049 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CEFB2F762BBE931400C88049;
+					};
+					CEFB2F972BBE931800C88049 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CEFB2F762BBE931400C88049;
+					};
+				};
+			};
+			buildConfigurationList = CEFB2F722BBE931400C88049 /* Build configuration list for PBXProject "SinavApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFB2F6E2BBE931400C88049;
+			productRefGroup = CEFB2F782BBE931400C88049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFB2F762BBE931400C88049 /* SinavApp */,
+				CEFB2F8C2BBE931700C88049 /* SinavAppTests */,
+				CEFB2F972BBE931800C88049 /* SinavAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFB2F752BBE931400C88049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB2F872BBE931700C88049 /* LaunchScreen.storyboard in Resources */,
+				CEFB2F842BBE931700C88049 /* Assets.xcassets in Resources */,
+				CE8FA2E02BBEBC3900F99981 /* abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg in Resources */,
+				CEFB2F822BBE931400C88049 /* Main.storyboard in Resources */,
+				CE8FA2DB2BBEBC2600F99981 /* play_button_flat_with_outline.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB2F8B2BBE931700C88049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB2F962BBE931800C88049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFB2F732BBE931400C88049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB2F7F2BBE931400C88049 /* ViewController.swift in Sources */,
+				CEFB2F7B2BBE931400C88049 /* AppDelegate.swift in Sources */,
+				CEFB2F7D2BBE931400C88049 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB2F892BBE931700C88049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB2F922BBE931800C88049 /* SinavAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB2F942BBE931800C88049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB2F9D2BBE931800C88049 /* SinavAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFB2F8F2BBE931700C88049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFB2F762BBE931400C88049 /* SinavApp */;
+			targetProxy = CEFB2F8E2BBE931700C88049 /* PBXContainerItemProxy */;
+		};
+		CEFB2F9A2BBE931800C88049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFB2F762BBE931400C88049 /* SinavApp */;
+			targetProxy = CEFB2F992BBE931800C88049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFB2F802BBE931400C88049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFB2F812BBE931400C88049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFB2F852BBE931700C88049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFB2F862BBE931700C88049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFB2F9F2BBE931800C88049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFB2FA02BBE931800C88049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFB2FA22BBE931800C88049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinavApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakupyavuz.SinavApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFB2FA32BBE931800C88049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinavApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakupyavuz.SinavApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFB2FA52BBE931800C88049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinavAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakupyavuz.SinavAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinavApp.app/SinavApp";
+			};
+			name = Debug;
+		};
+		CEFB2FA62BBE931800C88049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinavAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakupyavuz.SinavAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinavApp.app/SinavApp";
+			};
+			name = Release;
+		};
+		CEFB2FA82BBE931800C88049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinavAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakupyavuz.SinavAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinavApp;
+			};
+			name = Debug;
+		};
+		CEFB2FA92BBE931800C88049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SinavAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakupyavuz.SinavAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SinavApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFB2F722BBE931400C88049 /* Build configuration list for PBXProject "SinavApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB2F9F2BBE931800C88049 /* Debug */,
+				CEFB2FA02BBE931800C88049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFB2FA12BBE931800C88049 /* Build configuration list for PBXNativeTarget "SinavApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB2FA22BBE931800C88049 /* Debug */,
+				CEFB2FA32BBE931800C88049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFB2FA42BBE931800C88049 /* Build configuration list for PBXNativeTarget "SinavAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB2FA52BBE931800C88049 /* Debug */,
+				CEFB2FA62BBE931800C88049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFB2FA72BBE931800C88049 /* Build configuration list for PBXNativeTarget "SinavAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB2FA82BBE931800C88049 /* Debug */,
+				CEFB2FA92BBE931800C88049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFB2F6F2BBE931400C88049 /* Project object */;
+}
